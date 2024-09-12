@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposive Desing</title>
+<style>
+    .container{
+        width: 50%;
+      border: 5px solid teal;
+      height: 600px;
+      display: flex;
+      /* justify-content: right; */
+      /* align-items: end; */
+      /* flex-direction: column-reverse ; */
+      /* flex-direction: row-reverse ; */
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .box{
+        width: 50px;
+        height: 50px;
+        border: 2px solid red;
+    }
+    form{
+        display: flex;
+        flex-direction: column ;
+        gap: 10px;
+        width: 50%;
+    }
+    section{
+        /* border: 2px solid tomato; */
+        display: flex;
+        justify-content: center;
+        height: 90vh;
+        margin-top: 20px;
+        /* align-items: center; */
+        
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <!-- .box{box-$}*3 -->
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+        <div class="box">box-6</div>
+    </div>
+    <section>
+        <form action="">
+        <input type="email">
+        <input type="password" required>
+        <input type="submit">
+    </form>
+</section> 
+</body>
+</html>
